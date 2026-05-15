@@ -10,7 +10,7 @@ from abc import ABC
 import logging as log
 import os
 
-from config import XPATHS, CHROME_OPTIONS, LOG_OPTIONS
+from ..config import XPATHS, CHROME_OPTIONS, LOG_OPTIONS
 
 
 

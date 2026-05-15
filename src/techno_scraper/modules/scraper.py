@@ -5,8 +5,8 @@ from pandas import DataFrame
 import logging as log
 import os
 
-from config import XPATHS, FALLBACKXPATHS, DATAPATH, LOG_OPTIONS
-from modules.base import BaseScraper
+from ..config import XPATHS, FALLBACKXPATHS, DATAPATH, LOG_OPTIONS
+from ..modules.base import BaseScraper
 
 
 

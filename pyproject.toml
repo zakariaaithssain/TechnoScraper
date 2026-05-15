@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "technoscraper"
+version = "0.1.0"
+description = "TechnoPark Maroc Startups Scraper"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.3",
+    "selenium>=4.44.0",
+]
+
+[project.scripts]
+technoscraper = "techno_scraper.main:main"

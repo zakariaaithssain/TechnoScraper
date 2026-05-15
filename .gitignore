@@ -2,3 +2,6 @@ __pycache__/
 .scraper/
 data/
 modules/__pycache__
+.venv
+#log files 
+project.log 

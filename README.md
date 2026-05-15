@@ -39,11 +39,18 @@ Download it from: https://sites.google.com/chromium.org/driver/ And ensure it is
 - Install requirements:
 ```
 python -m pip install -r requirements.txt
+
+#or using uv 
+uv sync
+
 ```
 
 - Run the scraper:
 ```
 python main.py
+
+# or using uv 
+uv run technoscraper
 ```
 
 
